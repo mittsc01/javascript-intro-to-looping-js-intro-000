@@ -22,9 +22,10 @@ function whileLoop(num){
 
 
 function doWhileLoop(integer){
+  let i=0
   function incrementVariable(){
-    integer+=1;
-    return integer
+    i+=1;
+    return i
   }
   do {
     console.log("I run once regardless.")
